@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.kapsayici {
+    background-color: aqua;
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    .kapsayici {
+        display: flex;
+    }
+}
